@@ -20,6 +20,11 @@ This guide explains how to set up and run **Ollama** (a local LLM framework) on 
    ollama --version
    ```
 
+4. Download LLM (mistral)
+   ```bash
+   ollama pull mistral
+   ```
+
 ---
 
 ## 🔑 Step 2: Set Up SSH Key Authentication (Optional, Recommended)
