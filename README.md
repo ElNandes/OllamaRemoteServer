@@ -81,7 +81,20 @@ ps aux | grep ollama
    ```bash
    curl http://localhost:11434/api/generate -d '{"model": "mistral", "prompt": "Hello!"}'
    ```
+   
+---
 
+## 🔗 Step 5: List and Remove LLM
+### **When LLM is no longer needed**
+1. List LLM:
+   ```bash
+   ollama list
+   ```
+2. Remove LLM:
+   ```bash
+   ollama rm mistral
+   ```
+   
 ---
 
 ## 🛠️ Troubleshooting
